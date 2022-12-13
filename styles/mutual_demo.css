@@ -38,10 +38,19 @@ a {
 }
 
   /* Footer */
+  footer {
+    background-color: gainsboro;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .main-footer {
+    margin-top: 50px;
+  }
   footer ul {
     display: flex;
     justify-content: center;
     gap: 15px;
+    flex-direction: column;
   
   }
     footer li {
@@ -73,9 +82,8 @@ a {
 @media (min-width: 800px) {
     /* Header */
     .nav-menu {
-        margin-top: 20px;
         display: inline-block;
-        margin-top: 2rem;
+        margin-top: 5rem;
         margin-bottom: 2rem;
     }
     .order {
@@ -96,8 +104,7 @@ a {
         cursor: pointer;
       }
     /* Footer */
-  footer ul {
-    gap: 50px;
-  
-  }
+    footer ul {
+        gap: 20px;
+      }
 } 
