@@ -28,6 +28,11 @@ header ul {
 body {
 
 }
+a {
+    text-decoration: none;
+    color: black;
+    
+}
 
 @media (max-width: 800px) {
     .banner {
@@ -40,5 +45,11 @@ body {
 @media (min-width: 800px) {
     .order {
         order: -1;
+    }
+
+    .pos_rel {
+        position: relative;
+        left: 80%;
+        top: -90%;
     }
 } 
