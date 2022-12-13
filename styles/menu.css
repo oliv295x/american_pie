@@ -1,35 +1,67 @@
 h1 {
     text-align: center;
+    padding-top: 31px;
 }
 h2 {
     text-align: center;
+    padding: 30px;
+
 }
+/* set images to the size of screen */
 img {
     width: 100%;
     height: auto;
     display: block;
 }
+/* makes a space between the page and content*/
 main {
-    max-width: 95rem;
+    max-width: 91%;
     margin-inline: auto;
+}
+.grid1 {
+    display: grid;
+    gap: 22px;
+}
+.grid1_reverse {
+    display: grid;
+    gap: 22px;
 }
 .grid1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+    /* gap between pictures */
+.grid1 :nth-child(1) {
+    gap: 20px;
+}
+.grid1_reverse :nth-child(1) {
+    gap: 20px;
+}
 /* Desktop only */
 @media (min-width: 800px) {
     .grid1 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1.4fr;
+        gap: 65px;
+    }
+    .grid1_reverse {
+        display: grid;
+        grid-template-columns: 1.4fr 2fr;
+        gap: 65px;
+    }
+    .grid1 :nth-child(1) {
+        gap: 37px;
+    }
+    .grid1_reverse :nth-child(1) {
+        gap: 37px;
     }
 
 }
 /* Mobile only */
 @media (max-width: 800px) {
     main {
-        max-width: 20rem;
+        max-width: 86%;
     }
     .remove {
 
