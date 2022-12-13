@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+/* Desktop only */
+@media (min-width: 800px) {
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+/* Mobile only */
+@media (max-width: 800px) {
+    .remove {
+
+        display: none;
+    }
+    .grid1_1 :nth-child(1) {
+        grid-column: span 2;
+    }
+    .grid1_1 {
+        grid-template-rows: 2fr 1fr;
+    }
+
+}
+

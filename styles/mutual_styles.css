@@ -1,15 +1,10 @@
 /* header */
 
-  .main-menu ul {
-    list-style: none;
-    padding: 0;
-  
-    /* 2. Få elementerne til at stå ved siden af hinanden */
-    display: flex;
-    gap: 1rem;
-  }
-  
   /* burgermenu */
+  .main-menu img {
+    width: 12%;
+    margin: 15px;
+  }
   .toggle-btn {
     background: transparent;
     border: none;
@@ -19,8 +14,17 @@
     cursor: pointer;
     display: none;
   }
-  
+  /* Mobile only */
   @media (max-width: 800px) {
+    .main-menu ul {
+      list-style: none;
+      padding: 0;
+    
+      /* 2. Få elementerne til at stå ved siden af hinanden */
+      display: flex;
+      gap: 1rem;
+    }
+    
     .toggle-btn {
       display: block;
     }
@@ -34,16 +38,15 @@
     }
   
     .main-menu.shown ul {
-      border-top: 1px solid #000;
       padding-top: 1rem;
       display: flex;
       flex-flow: column;
       flex-basis: 100%;
     }
-  }
-/* Mobile only */
-  @media (max-width: 800px) {
+
+    /* Header */
     .logo-img {
-        width: 80px;
+      width: 80px;
+      margin-top: 14%;
     }
-}
+  }
