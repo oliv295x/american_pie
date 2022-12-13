@@ -41,7 +41,7 @@
       flex-basis: 100%;
     }
   }
-
+/* Mobile only */
   @media (max-width: 800px) {
     .logo-img {
         width: 80px;
