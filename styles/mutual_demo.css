@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.banner {
+    display: grid;
+}
+/*/ other way to change order
+.grid_1-1 div:nth-child(1)  {
+    grid-column: 2;
+}
+/*/
+
+body {
+
+}
+
+@media (max-width: 800px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Dekstop only */
+@media (min-width: 800px) {
+    .order {
+        order: -1;
+    }
+}
