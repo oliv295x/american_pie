@@ -1,35 +1,75 @@
+/***** font *****/
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('proxima_nova_font-webfont.woff2') format('woff2'),
+         url('proxima_nova_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr;
 }
 
+/***** slide *****/
+
 .slide{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column: 1/2;
-    margin-bottom: 15px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
 }
+/***** pics *****/
 
 .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
-    margin-top: 15px;
-    
+    margin-top: 4rem; 
+    margin-bottom: 3rem;
+}
+/***** buttons *****/
+
+button{
+    width: auto;
+    height: auto;
+    display:inline-block;
+    background-color: #E51E26;
+    padding: 10px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-top: 3rem;
     
 }
+
 .img1{
     grid-column: span 1/2;  
 }
-
 
 img{
     align-items: center;
     max-width: 100%;
 }
+/***** style *****/
 p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'proxima_novaregular';
+    margin-top: 3rem;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h1{
+    font-family: 'proxima_novaregular';
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 body{
-    padding: 6rem;
+    padding: 15%;
 }
 

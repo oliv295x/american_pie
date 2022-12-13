@@ -11,6 +11,7 @@ header a {
     font-family: 'proxima_novaregular';
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-bottom: 4rem;
 }
 
 header ul {
