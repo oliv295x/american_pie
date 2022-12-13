@@ -3,3 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+header nav {
+    list-style: none;
+    margin-right: 0%;
+}
