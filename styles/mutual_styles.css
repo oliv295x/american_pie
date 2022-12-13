@@ -49,7 +49,6 @@
     }
   
     .main-menu.shown ul {
-      padding-top: 1rem;
       display: flex;
       flex-flow: column;
       flex-basis: 100%;

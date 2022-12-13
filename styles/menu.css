@@ -1,10 +1,17 @@
 h1 {
     text-align: center;
 }
+h2 {
+    text-align: center;
+}
 img {
     width: 100%;
     height: auto;
     display: block;
+}
+main {
+    max-width: 95rem;
+    margin-inline: auto;
 }
 .grid1_1 {
     display: grid;
@@ -21,6 +28,9 @@ img {
 }
 /* Mobile only */
 @media (max-width: 800px) {
+    main {
+        max-width: 20rem;
+    }
     .remove {
 
         display: none;
