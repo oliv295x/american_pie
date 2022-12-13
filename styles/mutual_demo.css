@@ -8,6 +8,10 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'proxima_novaregular';
+    text-transform: uppercase;
+    margin: 2rem;
+    letter-spacing: 1px;
 }
 
 header ul {
@@ -16,6 +20,7 @@ header ul {
     justify-content: center;
     gap: 10%;
 }
+
 .banner {
     display: grid;
 }
@@ -25,11 +30,11 @@ header ul {
 }
 /*/
 
-body {
-}
+
 a {
     text-decoration: none;
     color: black;
+    font-family: 'proxima_novaregular';
     
 }
 

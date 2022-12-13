@@ -1,8 +1,19 @@
+/* font */
+
+@font-face {
+  font-family: 'proxima_novaregular';
+  src: url('proxima_nova_font-webfont.woff2') format('woff2'),
+       url('proxima_nova_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 /* header */
 
   .main-menu ul {
     list-style: none;
     padding: 0;
+    font-family: 'proxima_novaregular';
   
     /* 2. Få elementerne til at stå ved siden af hinanden */
     display: flex;
@@ -19,6 +30,9 @@
     cursor: pointer;
     display: none;
   }
+a{
+  font-family: 'proxima_nova_font-webfont.woff2';
+}
   
   @media (max-width: 800px) {
     .toggle-btn {
@@ -31,6 +45,7 @@
   
     .main-menu ul {
       display: none;
+      
     }
   
     .main-menu.shown ul {
