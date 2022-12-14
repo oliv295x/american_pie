@@ -29,7 +29,7 @@ header ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 9.5%;
+    gap: 7.5%;
 }
 
 .banner {
@@ -106,7 +106,7 @@ a {
     .basket-icon {
         position: relative;
         left: 80%;
-        top: -90%;
+        top: -313%;
     }
     .logo-img {
         width: 35%;
