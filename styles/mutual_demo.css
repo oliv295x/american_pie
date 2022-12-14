@@ -52,6 +52,7 @@ a {
 
 /* Footer */
 footer {
+    
   background-color: gainsboro;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -68,6 +69,9 @@ footer ul {
 footer li {
   text-align: center;
   list-style: none;
+}
+footer a {
+    letter-spacing: 0.2rem;
 }
 
 /* Mobile only */
