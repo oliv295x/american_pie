@@ -1,42 +1,41 @@
 /***** font *****/
 @font-face {
-    font-family: 'proxima_novaregular';
-    src: url('/fonts/proxima_nova_font-webfont.woff2') format('woff2'),
-         url('/fonts/proxima_nova_font-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "proxima_novaregular";
+  src: url("/fonts/proxima_nova_font-webfont.woff2") format("woff2"), url("/fonts/proxima_nova_font-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'proxima_novaregular';
-    letter-spacing: .05rem;
-    font-weight: bold;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "proxima_novaregular";
+  letter-spacing: 0.5rem;
+  font-weight: normal;
 }
 
 /* Header */
 header a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 header ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 7rem;
-    row-gap: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 7rem;
+  row-gap: 1rem;
 }
 
 .banner {
-    display: grid;
-    font-size: 20px;
+  display: grid;
+  font-size: 20px;
 }
 /*/ other way to change order
 .grid_1-1 div:nth-child(1)  {
@@ -44,56 +43,51 @@ header ul {
 }
 /*/
 
-
 a {
-    text-decoration: none;
-    color: black;
-    font-family: 'proxima_novaregular';
-    
+  text-decoration: none;
+  color: black;
+  font-family: "proxima_novaregular";
 }
 /* Body */
 
-
-  /* Footer */
-  footer {
-    background-color: gainsboro;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  .main-footer {
-    margin-top: 50px;
-  }
-  footer ul {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-direction: column;
-  
-  }
-    footer li {
-      text-align: center;
-      list-style: none;
-    }
+/* Footer */
+footer {
+  background-color: gainsboro;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.main-footer {
+  margin-top: 50px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+}
+footer li {
+  text-align: center;
+  list-style: none;
+}
 
 /* Mobile only */
 @media (max-width: 800px) {
-    /* HEADER */
-    .banner {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .icon-img {
-        position: absolute;
-        width: 13%;
-        left: 85%;
-        top: 1.2%;
-        cursor: pointer;
-      }
-    .nav-menu li {
-        padding-bottom: 0.8rem;
-        border-bottom: 1px solid #000;
-    }
-
+  /* HEADER */
+  .banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .icon-img {
+    position: absolute;
+    width: 13%;
+    left: 85%;
+    top: 1.2%;
+    cursor: pointer;
+  }
+  .nav-menu li {
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #000;
+  }
 }
 /* Dekstop only */
 @media (min-width: 800px) {
@@ -117,12 +111,12 @@ a {
         margin-top: 20px;
     }
 
-    .icon-img {
-        width: 2.25%;
-        cursor: pointer;
-      }
-    /* Footer */
-    footer ul {
-        gap: 20px;
-      }
+  .icon-img {
+    width: 2.25%;
+    cursor: pointer;
+  }
+  /* Footer */
+  footer ul {
+    gap: 20px;
+  }
 }
