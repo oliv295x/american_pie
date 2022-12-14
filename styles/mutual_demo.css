@@ -1,9 +1,21 @@
+/***** font *****/
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('/fonts/proxima_nova_font-webfont.woff2') format('woff2'),
+         url('/fonts/proxima_nova_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'proxima_novaregular';
+    letter-spacing: .05rem;
+    font-weight: 400;
 }
+
 /* Header */
 header a {
     display: flex;
@@ -36,6 +48,8 @@ a {
     font-family: 'proxima_novaregular';
     
 }
+/* Body */
+
 
   /* Footer */
   footer {

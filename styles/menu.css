@@ -1,8 +1,15 @@
+p {
+    font-family: 'proxima_novaregular';
+}
 h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
     text-align: center;
     padding-top: 31px;
+    padding-bottom: 20px;
 }
 h2 {
+    text-transform: uppercase;
     text-align: center;
     padding: 30px;
 
@@ -38,8 +45,27 @@ main {
 .grid1_reverse :nth-child(1) {
     gap: 20px;
 }
+.line1 {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1px solid #000;
+}
+#lastcol {
+    padding: 20px;
+}
 /* Desktop only */
 @media (min-width: 800px) {
+    h2 {
+        padding: 60px;
+    }
+    h1 {
+        padding-top: 18px;
+        padding-bottom: 0px;
+    }
+    #lastcol {
+        padding: 30px;
+    }
     .grid1 {
         display: grid;
         grid-template-columns: 2fr 1.4fr;
@@ -56,6 +82,7 @@ main {
     .grid1_reverse :nth-child(1) {
         gap: 37px;
     }
+    
 
 }
 /* Mobile only */
