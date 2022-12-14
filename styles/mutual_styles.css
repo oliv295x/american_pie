@@ -22,7 +22,7 @@
     
       /* 2. Få elementerne til at stå ved siden af hinanden */
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
     }
     
     .toggle-btn {
@@ -32,7 +32,6 @@
     .main-menu.shown {
       display: contents;
     }
-  
     .main-menu ul {
       display: none;
       

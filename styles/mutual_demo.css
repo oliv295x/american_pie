@@ -87,7 +87,8 @@ a {
         cursor: pointer;
       }
     .nav-menu li {
-        margin-bottom: 0.8rem;
+        padding-bottom: 0.8rem;
+        border-bottom: 1px solid #000;
     }
 
 }
