@@ -92,7 +92,6 @@ a {
     }
 
 }
-
 /* Dekstop only */
 @media (min-width: 800px) {
     /* Header */
@@ -106,8 +105,8 @@ a {
     }
     .basket-icon {
         position: relative;
-        left: 80%;
-        top: -313%;
+        left: 1500px;
+        top: -66px;
     }
     .logo-img {
         width: 35%;
@@ -122,4 +121,11 @@ a {
     footer ul {
         gap: 20px;
       }
-} 
+}
+@media (max-width: 1550px) {
+    .basket-icon {
+        position: relative;
+        top: -126px;
+        left: 1300px;
+    }
+}
