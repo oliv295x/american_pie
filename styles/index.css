@@ -57,11 +57,11 @@ img{
 /***** style *****/
 p{
     font-family: 'proxima_novaregular';
-    margin-top: 3rem;
+    margin-top: 2rem;
     line-height: 2rem;
     letter-spacing: 0.5px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 h1{
     font-family: 'proxima_novaregular';
