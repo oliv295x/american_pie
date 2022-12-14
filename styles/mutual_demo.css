@@ -52,6 +52,7 @@ a {
 
 /* Footer */
 footer {
+    
   background-color: gainsboro;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -68,6 +69,9 @@ footer ul {
 footer li {
   text-align: center;
   list-style: none;
+}
+footer a {
+    letter-spacing: 0.2rem;
 }
 
 /* Mobile only */
@@ -91,25 +95,25 @@ footer li {
 }
 /* Dekstop only */
 @media (min-width: 800px) {
-  /* Header */
-  .nav-menu {
-    display: inline-block;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-  }
-  .order {
-    order: -1;
-  }
-  .basket-icon {
-    position: relative;
-    left: 1516px;
-    top: -73px;
-    width: 120%;
-  }
-  .logo-img {
-    width: 35%;
-    margin-top: 20px;
-  }
+    /* Header */
+    .nav-menu {
+        display: inline-block;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    .order {
+        order: -1;
+    }
+    .basket-icon {
+        position: relative;
+        left: 93%;
+        top: -73px;
+        width: 120%;
+    }
+    .logo-img {
+        width: 35%;
+        margin-top: 20px;
+    }
 
   .icon-img {
     width: 2.25%;
@@ -118,13 +122,5 @@ footer li {
   /* Footer */
   footer ul {
     gap: 20px;
-  }
-}
-@media (max-width: 1550px) {
-  .basket-icon {
-    position: relative;
-    top: -176px;
-    left: 80%;
-    width: 120%;
   }
 }

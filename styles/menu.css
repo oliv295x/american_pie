@@ -9,6 +9,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     padding: 30px;
+    letter-spacing: 0.1rem;
 
 }
 /* set images to the size of screen */
@@ -60,6 +61,7 @@ main {
     padding-top: 40px;
 }
 button {
+    letter-spacing: 0.12rem;
     display: inline-block;
     border: none;
     padding: 1rem 2rem;
@@ -87,6 +89,14 @@ button:active {
 }
 /* Desktop only */
 @media (min-width: 800px) {
+    .recipe_parent {
+        display: flex;
+        justify-content: center;
+    }
+    .recipe_img {
+        width: 85%;
+        justify-content: center;
+    }
     h2 {
         padding: 60px;
     }
