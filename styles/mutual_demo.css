@@ -13,7 +13,7 @@
     padding: 0;
     font-family: 'proxima_novaregular';
     letter-spacing: .05rem;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 /* Header */
@@ -29,11 +29,14 @@ header ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 7.5%;
+    flex-wrap: wrap;
+    column-gap: 7rem;
+    row-gap: 1rem;
 }
 
 .banner {
     display: grid;
+    font-size: 20px;
 }
 /*/ other way to change order
 .grid_1-1 div:nth-child(1)  {
@@ -105,8 +108,9 @@ a {
     }
     .basket-icon {
         position: relative;
-        left: 1500px;
-        top: -66px;
+        left: 1516px;
+        top: -73px;
+        width: 120%;
     }
     .logo-img {
         width: 35%;
@@ -125,7 +129,8 @@ a {
 @media (max-width: 1550px) {
     .basket-icon {
         position: relative;
-        top: -126px;
-        left: 1300px;
+        top: -176px;
+        left: 80%;
+        width: 120%;
     }
 }
