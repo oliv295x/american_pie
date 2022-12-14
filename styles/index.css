@@ -69,7 +69,8 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-body{
-    padding: 15%;
+main{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
