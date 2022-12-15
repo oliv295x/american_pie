@@ -94,7 +94,7 @@ button:active {
         justify-content: center;
     }
     .recipe_img {
-        width: 85%;
+        width: 70%;
         justify-content: center;
     }
     h2 {
@@ -111,12 +111,12 @@ button:active {
     .grid1 {
         display: grid;
         grid-template-columns: 2fr 1.4fr;
-        gap: 65px;
+        gap: 1px;
     }
     .grid1_reverse {
         display: grid;
         grid-template-columns: 1.4fr 2fr;
-        gap: 65px;
+        gap: 1px;
     }
     .grid1 :nth-child(1) {
         gap: 37px;

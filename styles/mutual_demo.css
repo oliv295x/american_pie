@@ -1,7 +1,7 @@
 /***** font *****/
 @font-face {
   font-family: "proxima_novaregular";
-  src: url("./fonts/proxima_nova_font-webfont.woff2") format("woff2"), url("/fonts/proxima_nova_font-webfont.woff") format("woff");
+  src: url('/fonts/proxima_nova_font-webfont.woff2') format("woff2"), url('/fonts/proxima_nova_font-webfont.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -57,6 +57,9 @@ footer {
   background-color: gainsboro;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+footer h1 {
+  text-align: center;
 }
 .main-footer {
   margin-top: 50px;
