@@ -1,7 +1,7 @@
 /***** font *****/
 @font-face {
   font-family: "proxima_novaregular";
-  src: url('/fonts/proxima_nova_font-webfont.woff2') format("woff2"), url('/fonts/proxima_nova_font-webfont.woff') format("woff");
+  src: url("/fonts/proxima_nova_font-webfont.woff2") format("woff2"), url("/fonts/proxima_nova_font-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -13,6 +13,7 @@
   font-family: "proxima_novaregular";
   letter-spacing: 0.5px;
   font-weight: normal;
+  text-align: center;
 }
 
 /* Header */
@@ -53,7 +54,6 @@ a {
 
 /* Footer */
 footer {
-    
   background-color: gainsboro;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -70,10 +70,9 @@ footer ul {
 footer li {
   text-align: center;
   list-style: none;
-  
 }
 footer a {
-    letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
 }
 
 /* Mobile only */
@@ -97,30 +96,29 @@ footer a {
 }
 /* Dekstop only */
 @media (min-width: 800px) {
-    /* Header */
-    .nav-menu {
-        display: inline-block;
-        margin-top: 5rem;
-        margin-bottom: 2rem;
-    }
-    .order {
-        order: -1;
-    }
-    .basket-icon {
-        position: relative;
-        left: 93%;
-        top: -73px;
-        width: 120%;
-    }
-    .logo-img {
-        width: 35%;
-        margin-top: 20px;
-    }
+  /* Header */
+  .nav-menu {
+    display: inline-block;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .order {
+    order: -1;
+  }
+  .basket-icon {
+    position: relative;
+    left: 93%;
+    top: -73px;
+    width: 120%;
+  }
+  .logo-img {
+    width: 35%;
+    margin-top: 20px;
+  }
 
   .icon-img {
     width: 2.25%;
     cursor: pointer;
-  
   }
   /* Footer */
   footer ul {
